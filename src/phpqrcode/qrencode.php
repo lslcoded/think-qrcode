@@ -140,7 +140,7 @@
                 $ret = $this->rsblocks[$row]->data[$col];
             } else if($this->count < $this->dataLength + $this->eccLength) {
                 $row = intval(($this->count - $this->dataLength) % $this->blocks);
-                $col = intval($this->count - $this->dataLength) / $this->blocks);
+                $col = intval(($this->count - $this->dataLength) / $this->blocks);
                 $ret = $this->rsblocks[$row]->ecc[$col];
             } else {
                 return 0;
