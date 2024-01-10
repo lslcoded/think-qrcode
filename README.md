@@ -5,7 +5,7 @@ The ThinkPHP5 qrcode
 
 ### 一、执行命令安装
 ```
-composer require dh2y/think-qrcode
+composer require lslcoded/think-qrcode
 ```
 
 或者
@@ -15,27 +15,27 @@ composer require dh2y/think-qrcode
 ##### thinkphp5.0 安装
 ```
 "require": {
-        "dh2y/think-qrcode":"1.*"
+        "lslcoded/think-qrcode":"1.*"
 },
 ```
 
 ##### thinkphp5.1 安装
 ```
 "require": {
-        "dh2y/think-qrcode":"2.*"
+        "lslcoded/think-qrcode":"2.*"
 },
 ```
 
 或者
 ###  三、autoload psr-4标准安装
 ```
-   a) 进入vendor/dh2y目录 (没有dh2y目录 mkdir dh2y)
+   a) 进入vendor/lslcoded目录 (没有lslcoded目录 mkdir lslcoded)
    b) git clone 
    c) 修改 git clone下来的项目名称为think-qrcode
    d) 添加下面配置
    "autoload": {
         "psr-4": {
-            "dh2y\\qrcode\\": "vendor/dh2y/think-qrcode/src"
+            "lslcoded\\qrcode\\": "vendor/lslcoded/think-qrcode/src"
         }
     },
     e) php composer.phar update
